@@ -1,5 +1,5 @@
 <template>
-  <div class="px-16 pt-32 pb-16">
+  <div class="pt-32 pb-16">
     <h1 class="text-5xl font-semibold text-lime-400">
       Software <br />
       Engineer <span class="text-white">.</span>
