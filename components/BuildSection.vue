@@ -9,7 +9,13 @@
         Open source projects, <br />
         web apps and experimentals.
       </p>
-      <Button>See my work</Button>
+      <Button variant="reveal" size="revealxl">
+        See my work
+        <Icon
+          name="svg:logn-arrow-righ"
+          class="text-xs items-center ml-3 group-hover:text-white"
+        />
+      </Button>
     </div>
     <Separator class="bg-primary my-20" />
     <div class="space-y-4 px-8">
@@ -21,7 +27,13 @@
         About design, <br />
         frontend dev, learning and life.
       </p>
-      <Button>Read my article</Button>
+      <Button variant="reveal" size="revealxl">
+        Read my article
+        <Icon
+          name="svg:logn-arrow-righ"
+          class="text-xs items-center ml-3 group-hover:text-white"
+        />
+      </Button>
     </div>
   </div>
 </template>

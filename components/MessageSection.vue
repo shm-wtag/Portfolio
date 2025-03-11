@@ -14,6 +14,14 @@
         label="Email message"
         placeholder="Enter your email address"
       />
+
+      <Button variant="reveal" size="reveallg">
+        Shoot
+        <Icon
+          name="svg:logn-arrow-righ"
+          class="text-xs items-center ml-3 group-hover:text-white"
+        />
+      </Button>
     </form>
   </div>
 </template>

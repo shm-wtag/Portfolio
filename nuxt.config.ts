@@ -13,5 +13,13 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui'
+  },
+  icon: {
+    customCollections: [
+      {
+        prefix: 'svg',
+        dir: './assets/icons'
+      }
+    ]
   }
 })
