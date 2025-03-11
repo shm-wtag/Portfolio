@@ -1,6 +1,6 @@
 <template>
   <div class="pt-32 pb-16">
-    <h1 class="text-5xl font-semibold text-lime-400">
+    <h1 class="text-5xl font-semibold text-secondary">
       Software <br />
       Engineer <span class="text-white">.</span>
     </h1>

@@ -3,7 +3,7 @@ const year = new Date().getFullYear();
 </script>
 
 <template>
-  <footer class="bg-purple-900">
+  <footer class="bg-accent text-accent-foreground">
     <div class="grid grid-cols-2 gap-16">
       <div class="space-y-2">
         <h3 class="uppercase text-gray-400">Say hello</h3>
@@ -11,7 +11,7 @@ const year = new Date().getFullYear();
         <Button variant="custom">t.me@maruf.safique</Button>
       </div>
       <div class="space-y-2">
-        <Button variant="custom" class="">My Work</Button>
+        <Button variant="custom">My Work</Button>
         <Button variant="custom">My Shelf</Button>
         <Button variant="custom">My Resume</Button>
       </div>

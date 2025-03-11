@@ -11,7 +11,7 @@ const onHamburgerClick = () => {
 const menuVairants = cva("", {
   variants: {
     variant: {
-      default: "text-lime-300",
+      default: "text-secondary",
       full: "text-blue-600",
     },
   },

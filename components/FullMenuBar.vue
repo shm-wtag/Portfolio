@@ -7,7 +7,7 @@ const emtis = defineEmits(["close"]);
     <MenuBar variant="full" @click="$emit('close')" />
 
     <div
-      class="h-screen bg-white absolute top-0 bottom-0 left-0 right-0 py-32 px-16 space-y-2"
+      class="h-screen bg-white fixed top-0 bottom-0 left-0 right-0 py-32 px-16 space-y-2 transition-all duration-150"
     >
       <Button variant="custom" class="">My Work</Button>
       <Button variant="custom">My Shelf</Button>

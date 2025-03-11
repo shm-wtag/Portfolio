@@ -11,7 +11,7 @@ const closeFullMenu = () => {
 </script>
 
 <template>
-  <div class="bg-blue-600">
+  <div class="bg-primary">
     <FullMenuBar v-if="showFullMenu" @close="closeFullMenu" />
     <MenuBar v-else @click="openFullMenu" />
 
@@ -22,7 +22,7 @@ const closeFullMenu = () => {
 
   <YearsSection class="px-16 py-32" />
 
-  <BuildSection class="px-16 py-32" />
+  <BuildSection class="py-20 mt-20" />
 
   <MessageSection class="px-16 py-32" />
 
