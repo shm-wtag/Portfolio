@@ -1,6 +1,6 @@
 <template>
   <div class="pt-20 sm:h-screen sm:pt-80">
-    <div class="bg-white mx-auto w-4/5 sm:flex sm:justify-between">
+    <div class="bg-white mx-auto w-4/5 sm:w-3/4 sm:flex sm:justify-between">
       <div class="p-16 space-y-4 sm:p-20 sm:w-1/2 sm:space-y-8">
         <h1 class="text-3xl text-primary font-semibold sm:text-4xl">
           I build & <br />

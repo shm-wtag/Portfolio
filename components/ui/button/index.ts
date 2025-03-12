@@ -16,7 +16,7 @@ export const buttonVariants = cva(
           'bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80',
         ghost: 'hover:bg-accent hover:text-accent-foreground',
         link: 'px-0 font-light sm:text-xl',
-        reveal: 'border border-primary relative group hover:text-white rounded-none text-primary text-xs px-auto uppercase',
+        reveal: 'border border-primary relative group hover:text-white rounded-none text-primary text-xs px-auto uppercase sm:py-6 sm:text-sm',
         custom: 'block font-light text-blue-600 px-0 text-lg'
       },
       size: {
@@ -25,8 +25,8 @@ export const buttonVariants = cva(
         sm: 'h-8 rounded-md px-3 text-xs',
         lg: 'h-10 rounded-md px-8',
         icon: 'h-9 w-9',
-        revealxl: 'h-9 w-64',
-        reveallg: 'h-9 w-40'
+        revealxl: 'h-9 w-64 sm:w-72',
+        reveallg: 'h-9 w-40 sm:w-44'
       },
     },
     defaultVariants: {
