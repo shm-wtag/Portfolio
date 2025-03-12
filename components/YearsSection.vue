@@ -1,34 +1,43 @@
 <template>
-  <div class="bg-primary space-y-4 text-gray-200 font-light text-sm">
-    <h1 class="text-4xl text-secondary font-semibold">Over the years,</h1>
-    <p>
-      I've built products for companies and businesses around the globe ranging
-      from marketing websites to complex solutions and enterprise apps with
-      focus on fast, elegant and accessible user experiences.
-    </p>
+  <div class="bg-primary py-20 flex sm:h-screen">
+    <div class="w-4/5 mx-auto sm:w-3/4 sm:pt-44">
+      <div
+        class="space-y-4 text-gray-200 font-light text-sm sm:text-base sm:w-1/2"
+      >
+        <h1 class="text-4xl text-secondary font-semibold sm:text-5xl sm:pb-4">
+          Over the years,
+        </h1>
+        <p>
+          I've built products for companies and businesses around the globe
+          ranging from marketing websites to complex solutions and enterprise
+          apps with focus on fast, elegant and accessible user experiences.
+        </p>
 
-    <p>
-      Currently, I work at Shopify as a Senior Frontend Engineer crafting
-      thoughtful and inclusive experiences that adhere to web standards for over
-      3 million merchants across the world.
-    </p>
+        <p>
+          Currently, I work at Shopify as a Senior Frontend Engineer crafting
+          thoughtful and inclusive experiences that adhere to web standards for
+          over 3 million merchants across the world.
+        </p>
 
-    <p>
-      Before now, I was Principal Frontend Engineer at hellotax, where I worked
-      on a suite of tools and services tailored towards automated VAT compliance
-      for multi-channel sellers in Europe.
-    </p>
+        <p>
+          Before now, I was Principal Frontend Engineer at hellotax, where I
+          worked on a suite of tools and services tailored towards automated VAT
+          compliance for multi-channel sellers in Europe.
+        </p>
 
-    <p>
-      Prior to hellotax, I was Senior frontend engineering consultant with
-      Pixel2HTML, building JavaScript applications and interfaces for orgs and
-      individuals.
-    </p>
+        <p>
+          Prior to hellotax, I was Senior frontend engineering consultant with
+          Pixel2HTML, building JavaScript applications and interfaces for orgs
+          and individuals.
+        </p>
 
-    <p>
-      I once also led the frontend team at Conectar, an e-learning startup
-      through building multiple React applications into a single robust learning
-      platform.
-    </p>
+        <p>
+          I once also led the frontend team at Conectar, an e-learning startup
+          through building multiple React applications into a single robust
+          learning platform.
+        </p>
+      </div>
+      <div class="w-1/2"></div>
+    </div>
   </div>
 </template>
