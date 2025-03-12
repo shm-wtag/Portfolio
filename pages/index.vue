@@ -18,7 +18,7 @@ const closeFullMenu = () => {
     <HeroSection class="px-16" />
   </div>
 
-  <DesignSection class="px-16 py-32" />
+  <DesignSection />
 
   <YearsSection />
 
