@@ -8,23 +8,29 @@ const openFullMenu = () => {
 const closeFullMenu = () => {
   showFullMenu.value = false;
 };
+
+useHead({
+  htmlAttrs: {
+    class: "sm:snap-y sm:snap-mandatory",
+  },
+});
 </script>
 
 <template>
-  <div class="bg-primary relative">
+  <div class="bg-primary relative sm:snap-start">
     <FullMenuBar v-if="showFullMenu" @close="closeFullMenu" />
     <MenuBar v-else @click="openFullMenu" />
 
     <HeroSection />
   </div>
 
-  <DesignSection />
+  <DesignSection class="sm:snap-start" />
 
-  <YearsSection />
+  <YearsSection class="sm:snap-start" />
 
-  <BuildSection />
+  <BuildSection class="sm:snap-start" />
 
-  <MessageSection />
+  <MessageSection class="sm:snap-start" />
 
-  <FooterSection />
+  <FooterSection class="sm:snap-start" />
 </template>
