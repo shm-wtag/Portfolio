@@ -20,7 +20,7 @@ const closeFullMenu = () => {
 
   <DesignSection class="px-16 py-32" />
 
-  <YearsSection class="px-16 py-32" />
+  <YearsSection />
 
   <BuildSection />
 

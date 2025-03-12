@@ -1,12 +1,12 @@
 <template>
-  <div class="pt-20 sm:h-screen sm:pt-80">
-    <div class="bg-white mx-auto w-4/5 sm:w-3/4 sm:flex sm:justify-between">
-      <div class="p-16 space-y-4 sm:p-20 sm:w-1/2 sm:space-y-8">
-        <h1 class="text-3xl text-primary font-semibold sm:text-4xl">
+  <div class="pt-20 sm:h-screen lg:pt-80">
+    <div class="bg-white mx-auto w-4/5 lg:w-3/4 lg:flex lg:justify-between">
+      <div class="p-16 space-y-4 lg:p-20 lg:w-1/2 lg:space-y-8">
+        <h1 class="text-3xl text-primary font-semibold lg:text-4xl">
           I build & <br />
           design stuff
         </h1>
-        <p class="text-sm font-light sm:text-base">
+        <p class="text-sm font-light lg:text-base">
           Open source projects, <br />
           web apps and experimentals.
         </p>
@@ -19,18 +19,18 @@
         </Button>
       </div>
 
-      <Separator class="bg-primary sm:hidden" />
+      <Separator class="bg-primary lg:hidden" />
       <Separator
-        class="bg-primary sm:h-[400px] hidden sm:flex"
+        class="bg-primary lg:h-[400px] hidden lg:flex"
         orientation="vertical"
       />
 
-      <div class="p-16 space-y-4 sm:p-20 sm:w-1/2 sm:space-y-8">
-        <h1 class="text-3xl text-primary font-semibold sm:text-4xl">
+      <div class="p-16 space-y-4 lg:p-20 lg:w-1/2 lg:space-y-8">
+        <h1 class="text-3xl text-primary font-semibold lg:text-4xl">
           I write, <br />
           sometimes
         </h1>
-        <p class="text-sm font-light sm:text-base">
+        <p class="text-sm font-light lg:text-base">
           About design, <br />
           frontend dev, learning and life.
         </p>
