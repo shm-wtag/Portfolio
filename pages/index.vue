@@ -11,11 +11,11 @@ const closeFullMenu = () => {
 </script>
 
 <template>
-  <div class="bg-primary">
+  <div class="bg-primary relative">
     <FullMenuBar v-if="showFullMenu" @close="closeFullMenu" />
     <MenuBar v-else @click="openFullMenu" />
 
-    <HeroSection class="px-16" />
+    <HeroSection />
   </div>
 
   <DesignSection />

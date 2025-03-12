@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
   	extend: {
+      height: {
+        'hero': 'var(--hero-height)',
+      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
