@@ -4,8 +4,8 @@ const year = new Date().getFullYear();
 
 <template>
   <footer class="bg-accent text-accent-foreground sm:h-screen">
-    <div class="mx-auto sm:w-5/6 sm:py-44">
-      <div class="mb-20 space-y-10 sm:flex sm:mb-44">
+    <div class="py-20 mx-auto w-4/5 sm:w-3/4 sm:pt-52">
+      <div class="pb-20 space-y-10 sm:flex sm:mb-44">
         <div
           class="space-y-2 flex flex-col items-start w-64 mr-96 sm:space-y-4"
         >
