@@ -1,5 +1,5 @@
 <template>
-  <div class="w-4/5 mx-auto py-20 sm:h-screen sm:3/4 sm:pt-72">
+  <div class="w-4/5 mx-auto py-20 sm:h-screen sm:w-3/4 sm:pt-72">
     <div
       class="font-light text-sm sm:text-base sm:flex sm:gap-32 sm:justify-between"
     >
