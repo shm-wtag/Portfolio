@@ -24,7 +24,7 @@ const closeFullMenu = () => {
 
   <BuildSection />
 
-  <MessageSection class="px-16 py-32" />
+  <MessageSection />
 
   <FooterSection />
 </template>
