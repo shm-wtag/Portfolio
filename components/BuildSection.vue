@@ -1,7 +1,7 @@
 <template>
   <div class="pt-20 sm:h-screen sm:pt-80">
-    <div class="bg-white mx-auto w-4/5 sm:flex">
-      <div class="p-16 space-y-4">
+    <div class="bg-white mx-auto w-4/5 sm:flex sm:justify-between">
+      <div class="p-16 space-y-4 sm:p-20 sm:w-1/2 sm:space-y-8">
         <h1 class="text-3xl text-primary font-semibold sm:text-4xl">
           I build & <br />
           design stuff
@@ -19,10 +19,13 @@
         </Button>
       </div>
 
-      <!-- orientation="vertical" -->
-      <Separator class="bg-primary" />
+      <Separator class="bg-primary sm:hidden" />
+      <Separator
+        class="bg-primary sm:h-[400px] hidden sm:flex"
+        orientation="vertical"
+      />
 
-      <div class="p-16 space-y-4">
+      <div class="p-16 space-y-4 sm:p-20 sm:w-1/2 sm:space-y-8">
         <h1 class="text-3xl text-primary font-semibold sm:text-4xl">
           I write, <br />
           sometimes
