@@ -4,16 +4,16 @@ const year = new Date().getFullYear();
 
 <template>
   <footer class="bg-accent text-accent-foreground">
-    <div class="grid grid-cols-2 gap-16">
-      <div class="space-y-2">
-        <h3 class="uppercase text-gray-400">Say hello</h3>
-        <Button variant="custom">hello@maruf.safique</Button>
-        <Button variant="custom">t.me@maruf.safique</Button>
+    <div class="mb-20 space-y-10 sm:grid sm:grid-cols-2 sm:gap-16">
+      <div class="space-y-2 flex flex-col items-start">
+        <h3 class="uppercase text-gray-400 text-sm">Say hello</h3>
+        <Button variant="link">hello@maruf.safique</Button>
+        <Button variant="link">t.me@maruf.safique</Button>
       </div>
-      <div class="space-y-2">
-        <Button variant="custom">My Work</Button>
-        <Button variant="custom">My Shelf</Button>
-        <Button variant="custom">My Resume</Button>
+      <div class="space-y-2 flex flex-col items-start">
+        <Button variant="link">My Work</Button>
+        <Button variant="link">My Shelf</Button>
+        <Button variant="link">My Resume</Button>
       </div>
     </div>
 
@@ -24,11 +24,11 @@ const year = new Date().getFullYear();
         <div>
           <p class="w-44 text-lime-500">&#169; Maruf Shafique {{ year }}</p>
         </div>
-        <div class="flex space-x-4">
-          <Button variant="custom">TW</Button>
-          <Button variant="custom">GH</Button>
-          <Button variant="custom">LN</Button>
-          <Button variant="custom">YT</Button>
+        <div class="space-x-4 hidden sm:flex">
+          <Button variant="link">TW</Button>
+          <Button variant="link">GH</Button>
+          <Button variant="link">LN</Button>
+          <Button variant="link">YT</Button>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary space-y-4 text-gray-200 font-thin text-sm">
+  <div class="bg-primary space-y-4 text-gray-200 font-light text-sm">
     <h1 class="text-4xl text-secondary font-semibold">Over the years,</h1>
     <p>
       I've built products for companies and businesses around the globe ranging
