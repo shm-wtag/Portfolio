@@ -11,13 +11,14 @@ const closeFullMenu = () => {
 
 useHead({
   htmlAttrs: {
-    class: "sm:snap-y sm:snap-mandatory",
+    class: "sm:snap-y sm:snap-mandatory scroll-smooth",
   },
 });
 </script>
 
 <template>
-  <div class="bg-primary relative sm:snap-start">
+  <NavBullet></NavBullet>
+  <div id="hero" class="bg-primary relative sm:snap-start">
     <FullMenuBar v-if="showFullMenu" @close="closeFullMenu" />
     <MenuBar v-else @click="openFullMenu" />
 

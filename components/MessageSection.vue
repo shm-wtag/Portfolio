@@ -1,5 +1,8 @@
 <template>
-  <div class="space-y-2 mx-auto w-4/5 py-20 sm:w-3/5 sm:h-screen sm:pt-64">
+  <div
+    id="message"
+    class="space-y-2 mx-auto w-4/5 py-20 sm:w-3/5 sm:h-screen sm:pt-64"
+  >
     <div class="text-center">
       <h1 class="font-semibold text-3xl text-primary sm:text-4xl">
         Send me a message!
