@@ -16,13 +16,13 @@ onMounted(() => {
 <template>
   <div
     :[selectedSection]="true"
-    class="hidden fixed top-96 right-32 z-50 sm:block"
+    class="hidden fixed top-[50%] translate-y-[-50%] right-32 z-50 sm:block"
   >
     <ul class="list-none space-y-4 flex flex-col justify-center items-center">
       <li>
         <a
           v-bind:[selectedSection]="true"
-          class="block bg-primary size-3 border-2 border-primary rotate-45 transition-all duration-500 data-[hero=true]:bg-transparent data-[hero=true]:rotate-0 data-[years=true]:bg-accent-foreground data-[years=true]:border-accent-foreground"
+          class="block bg-primary size-3 border-2 border-primary rotate-45 transition-all duration-500 hover:cursor-pointer data-[hero=true]:bg-transparent data-[hero=true]:rotate-0 data-[years=true]:bg-accent-foreground data-[years=true]:border-accent-foreground"
         />
       </li>
       <li>
