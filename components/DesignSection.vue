@@ -1,3 +1,10 @@
+<script lang="ts" setup>
+import { translateY } from "~/composable/translate";
+
+translateY(".design-engineer h1", [150, 0]);
+translateY(".design-engineer p", [100, 0]);
+</script>
+
 <template>
   <div
     id="design"
@@ -12,7 +19,7 @@
       class="hidden absolute top-[180px] right-[130px] h-[330px] w-[360px] sm:block"
     />
     <div
-      class="font-light text-sm sm:text-base sm:flex sm:gap-32 sm:justify-between"
+      class="font-light text-sm sm:text-base sm:flex sm:gap-32 sm:justify-between design-engineer"
     >
       <div class="sm:w-2/5">
         <h1

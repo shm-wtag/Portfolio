@@ -1,7 +1,17 @@
+<script lang="ts" setup>
+import { translateY } from "~/composable/translate";
+
+translateY(".ibuild h1", [120, 0], [0, 1]);
+translateY(".ibuild p", [80, 0], [0, 1]);
+
+translateY(".iwrite h1", [120, 0], [0, 1]);
+translateY(".iwrite p", [80, 0], [0, 1]);
+</script>
+
 <template>
   <div id="build" class="pt-20 sm:h-screen lg:pt-80">
     <div class="bg-white mx-auto w-4/5 lg:w-3/4 lg:flex lg:justify-between">
-      <div class="p-10 space-y-4 lg:p-20 lg:w-1/2 lg:space-y-8">
+      <div class="p-10 space-y-4 lg:p-20 lg:w-1/2 lg:space-y-8 ibuild">
         <h1 class="text-3xl text-primary font-semibold lg:text-4xl">
           I build & <br />
           design stuff
@@ -25,7 +35,7 @@
         orientation="vertical"
       />
 
-      <div class="p-10 space-y-4 lg:p-20 lg:w-1/2 lg:space-y-8">
+      <div class="p-10 space-y-4 lg:p-20 lg:w-1/2 lg:space-y-8 iwrite">
         <h1 class="text-3xl text-primary font-semibold lg:text-4xl">
           I write, <br />
           sometimes

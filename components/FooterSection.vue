@@ -1,11 +1,16 @@
 <script lang="ts" setup>
+import { translateY } from "~/composable/translate";
+
 const year = new Date().getFullYear();
+
+translateY(".hello", [300, 0], [0, 1], 1.2);
+translateY(".copy", [80, 0]);
 </script>
 
 <template>
   <footer id="footer" class="bg-accent text-accent-foreground sm:h-screen">
     <div class="py-20 mx-auto w-4/5 sm:w-3/4 sm:pt-52">
-      <div class="pb-20 space-y-10 sm:flex sm:mb-44">
+      <div class="pb-20 space-y-10 sm:flex sm:mb-44 hello">
         <div
           class="space-y-2 flex flex-col items-start w-64 mr-96 sm:space-y-4"
         >
@@ -22,7 +27,7 @@ const year = new Date().getFullYear();
         </div>
       </div>
 
-      <div>
+      <div class="copy">
         <Separator class="w-full bg-accent-foreground mt-8 mb-2 sm:mb-4" />
 
         <div class="gap-6 items-center w-full flex justify-between">
