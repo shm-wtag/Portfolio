@@ -1,5 +1,16 @@
 <template>
-  <div id="design" class="w-4/5 mx-auto py-20 sm:h-screen sm:w-3/4 sm:pt-72">
+  <div
+    id="design"
+    class="w-4/5 mx-auto py-20 relative sm:h-screen sm:w-3/4 sm:pt-72"
+  >
+    <Icon
+      name="svg:design-bg"
+      class="hidden absolute top-[500px] left-[250px] h-[350px] w-[200px] sm:block"
+    />
+    <Icon
+      name="svg:engineering-bg"
+      class="hidden absolute top-[180px] right-[130px] h-[330px] w-[360px] sm:block"
+    />
     <div
       class="font-light text-sm sm:text-base sm:flex sm:gap-32 sm:justify-between"
     >

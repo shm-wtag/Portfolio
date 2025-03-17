@@ -18,20 +18,24 @@ useHead({
 
 <template>
   <NavBullet></NavBullet>
-  <div id="hero" class="bg-primary relative sm:snap-start">
+  <div id="hero" class="bg-primary relative sm:snap-start span-container">
+    <Icon
+      name="svg:outline"
+      class="hidden sm:block absolute h-[1350px] w-[320px]"
+    />
     <FullMenuBar v-if="showFullMenu" @close="closeFullMenu" />
     <MenuBar v-else @click="openFullMenu" />
 
     <HeroSection />
   </div>
 
-  <DesignSection class="sm:snap-start" />
+  <DesignSection class="sm:snap-start span-container" />
 
-  <YearsSection class="sm:snap-start" />
+  <YearsSection class="sm:snap-start span-container" />
 
-  <BuildSection class="sm:snap-start" />
+  <BuildSection class="sm:snap-start span-container" />
 
-  <MessageSection class="sm:snap-start" />
+  <MessageSection class="sm:snap-start span-container" />
 
-  <FooterSection class="sm:snap-start" />
+  <FooterSection class="sm:snap-start span-container" />
 </template>

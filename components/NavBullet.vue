@@ -3,11 +3,6 @@ const selectedSection = ref("data-hero");
 
 onMounted(() => {
   document.addEventListener("scrollsnapchanging", (event) => {
-    //const previousPending = document.querySelector(".pending");
-    //if (previousPending) {
-    //  previousPending.classList.remove("pending");
-    //}
-
     selectedSection.value = `data-${event.snapTargetBlock.id}`;
   });
 });
