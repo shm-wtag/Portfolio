@@ -3,13 +3,13 @@ import { translateY } from "~/composable/translate";
 
 const year = new Date().getFullYear();
 
-translateY(".hello", [300, 0], [0, 1], 1.2);
-translateY(".copy", [80, 0]);
+translateY(".hello", [40, 0], [0, 1], 0.5);
+translateY(".copy", [80, 0], [0, 1], 0.5);
 </script>
 
 <template>
   <footer id="footer" class="bg-accent text-accent-foreground sm:h-screen">
-    <div class="py-20 mx-auto w-4/5 sm:w-3/4 sm:pt-52">
+    <Container variant="section" class="py-20 sm:pt-52">
       <div class="pb-20 space-y-10 sm:flex sm:mb-44 hello">
         <div
           class="space-y-2 flex flex-col items-start w-64 mr-96 sm:space-y-4"
@@ -46,6 +46,6 @@ translateY(".copy", [80, 0]);
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   </footer>
 </template>

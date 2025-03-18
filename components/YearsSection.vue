@@ -1,17 +1,17 @@
 <script lang="ts" setup>
 import { translateY } from "~/composable/translate";
 
-translateY(".years-desc h1", [150, 0]);
-translateY(".fst", [100, 0]);
-translateY(".snd", [80, 0]);
-translateY(".trd", [60, 0]);
-translateY(".fth", [60, 0]);
-translateY(".fth", [40, 0]);
+translateY(".years-desc h1", [50, 0]);
+translateY(".fst", [40, 0]);
+translateY(".snd", [20, 0]);
+translateY(".trd", [10, 0]);
+translateY(".fth", [10, 0]);
+translateY(".fth", [10, 0]);
 </script>
 
 <template>
   <div id="years" class="bg-primary py-20 flex sm:h-screen">
-    <div class="w-4/5 mx-auto sm:w-3/4 sm:pt-44">
+    <Container class="sm:pt-44">
       <div
         class="space-y-4 text-gray-200 font-light text-sm sm:text-base sm:w-1/2 years-desc"
       >
@@ -49,6 +49,6 @@ translateY(".fth", [40, 0]);
         </p>
       </div>
       <div class="w-1/2"></div>
-    </div>
+    </Container>
   </div>
 </template>

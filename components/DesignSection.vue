@@ -1,14 +1,16 @@
 <script lang="ts" setup>
 import { translateY } from "~/composable/translate";
 
-translateY(".design-engineer h1", [150, 0]);
-translateY(".design-engineer p", [100, 0]);
+translateY(".design-engineer h1", [50, 0]);
+translateY(".design-engineer p", [20, 0]);
 </script>
 
 <template>
-  <div
+  <Container
     id="design"
-    class="w-4/5 mx-auto py-20 relative sm:h-screen sm:w-3/4 sm:pt-72"
+    variant="section"
+    position="relative"
+    class="py-20 sm:h-screen sm:pt-72"
   >
     <Icon
       name="svg:design-bg"
@@ -49,5 +51,5 @@ translateY(".design-engineer p", [100, 0]);
         </p>
       </div>
     </div>
-  </div>
+  </Container>
 </template>

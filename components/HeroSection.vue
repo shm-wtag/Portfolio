@@ -1,5 +1,5 @@
 <template>
-  <div class="w-4/5 mx-auto pt-32 pb-16 sm:h-hero sm:w-3/4 sm:flex">
+  <Container variant="section" class="sm:h-hero sm:flex">
     <div class="sm:w-2/5 sm:pt-32">
       <h1 class="text-5xl font-semibold text-secondary sm:text-7xl sm:pb-4">
         Software <br />
@@ -30,5 +30,5 @@
     <div
       class="hidden w-1/3 sm:flex absolute top-0 right-0 bottom-0 bg-accent-foreground"
     ></div>
-  </div>
+  </Container>
 </template>

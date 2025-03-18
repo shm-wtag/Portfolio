@@ -4,7 +4,7 @@ export function translateY(
   element: string,
   y: number | Array<number> = [150, 0],
   opacity: number | Array<number> = 1,
-  duration: number = 0.8,
+  duration: number = 0.5,
   ease: "linear",
 ) {
   onMounted(() => {

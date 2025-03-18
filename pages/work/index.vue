@@ -3,8 +3,8 @@ import { projects } from "~/composable/work-data";
 </script>
 
 <template>
-  <div class="w-3/4 mx-auto space-y-10 mb-20 xl:w-2/3 2xl:w-3/5">
-    <div class="text-center mt-[10%]">
+  <Container>
+    <WorkHeader>
       <h1 class="font-semibold text-3xl text-stone-600 hidden sm:block">
         <span class="text-stone-500">/</span>
         Work
@@ -12,15 +12,16 @@ import { projects } from "~/composable/work-data";
       </h1>
 
       <p class="mt-3 text-gray-600">Selected work I've taken on in the past</p>
-    </div>
+    </WorkHeader>
 
     <div
-      class="space-y-5 gap-5 md:space-y-0 md:grid grid-cols-2 xl:grid-cols-3"
+      class="space-y-4 gap-5 md:space-y-0 md:grid md:grid-cols-2 xl:grid-cols-3"
     >
-      <div
+      <nuxt-link
         v-for="item in projects"
-        class="bg-white rounded-md cursor-pointer duration-150 shadow-sm hover:-translate-y-1 hover:shadow-lg"
+        class="bg-white block rounded-md cursor-pointer duration-150 shadow-sm hover:-translate-y-1 hover:shadow-lg"
         :key="item.title"
+        :to="`/work/${item.id}`"
       >
         <div class="flex justify-center p-10 bg-gray-200 rounded-t-md">
           <img class="w-[150px] h-[50px]" :src="item.image" alt="logo" />
@@ -34,9 +35,9 @@ import { projects } from "~/composable/work-data";
             target="_blank"
           />
         </div>
-      </div>
+      </nuxt-link>
     </div>
-  </div>
+  </Container>
 
   <FooterSection />
 </template>
