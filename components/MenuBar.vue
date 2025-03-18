@@ -29,15 +29,16 @@ const porps = defineProps<Props>();
 </script>
 
 <template>
-  <div class="px-8 py-8 flex justify-between absolute w-full z-10">
-    <h1 class="text-2xl uppercase" :class="cn(menuVairants({ variant }))">
+  <div
+    class="px-8 py-8 flex justify-between absolute w-full z-10 sm:px-32 sm:py-12"
+  >
+    <h1
+      class="text-2xl uppercase sm:text-3xl sm:font-bold"
+      :class="cn(menuVairants({ variant }))"
+    >
       Maruf
     </h1>
-    <Icon
-      class="text-4xl hover:cursor-pointer"
-      :class="cn(menuVairants({ variant }))"
-      name="mdi:close"
-      @click="onHamburgerClick"
-    />
+
+    <ToggleButton @click="onHamburgerClick"> </ToggleButton>
   </div>
 </template>
