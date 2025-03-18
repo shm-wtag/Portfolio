@@ -21,7 +21,11 @@ translateY(".copy", [80, 0]);
           <Button variant="link">t.me@maruf.safique</Button>
         </div>
         <div class="space-y-2 flex flex-col items-start sm:space-y-4">
-          <Button variant="link">My Work</Button>
+          <Button
+            variant="link"
+            class="after:content-[''] after:w-[20%] after:min-w-[1em] after:h-full hover:after:bg-blue-400"
+            >My Work</Button
+          >
           <Button variant="link">My Shelf</Button>
           <Button variant="link">My Resume</Button>
         </div>
