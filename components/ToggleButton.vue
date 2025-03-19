@@ -1,5 +1,22 @@
+<script lang="ts" setup>
+interface Props {
+  dataOpen?: boolean;
+}
+
+const props = withDefaults(defineProps<Props>(), { dataOpen: false });
+</script>
+
 <template>
   <Button
-    class="bg-transparent hover:bg-transparent relative w-12 h-6 outline-none shadow-none p-0 m-0 after:content-[''] after:w-full after:bg-white after:h-1 after:rounded after:absolute after:top-0 after:right-0 before:content-[''] before:w-[70%] before:h-1 before:bg-white before:absolute before:bottom-0 before:right-0 hover:before:rotate-45 hover:after:rotate-[135deg] hover:before:w-full hover:after:top-[19px] transition-all duration-200"
-  />
+    class="bg-transparent hover:bg-transparent relative size-9 outline-none shadow-none p-0 m-0 flex-col items-end group *:transition-all *:duration-150 *:bg-secondary sm:*:bg-primary"
+  >
+    <span
+      :data-open="dataOpen"
+      class="block w-full h-[2px] rounded mb-[4px] data-[open=true]:rotate-45 data-[open=true]:absolute top-4 right-0"
+    />
+    <span
+      :data-open="dataOpen"
+      class="block w-3/4 h-[2px] rounded data-[open=true]:w-full data-[open=true]:-rotate-45 data-[open=true]:absolute top-4 left-0"
+    />
+  </Button>
 </template>

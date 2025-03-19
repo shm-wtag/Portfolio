@@ -23,9 +23,10 @@ type ButtonVariants = VariantProps<typeof menuVairants>;
 
 interface Props {
   variant?: ButtonVariants["variant"];
+  menuOpen: boolean;
 }
 
-const porps = defineProps<Props>();
+defineProps<Props>();
 </script>
 
 <template>
@@ -33,12 +34,12 @@ const porps = defineProps<Props>();
     class="px-8 py-8 flex justify-between absolute w-full z-10 sm:px-32 sm:py-12"
   >
     <h1
-      class="text-2xl uppercase sm:text-3xl sm:font-bold"
+      class="text-2xl uppercase text-secondary sm:text-3xl sm:font-bold"
       :class="cn(menuVairants({ variant }))"
     >
       Maruf
     </h1>
 
-    <ToggleButton @click="onHamburgerClick"> </ToggleButton>
+    <ToggleButton :data-open="menuOpen" @click="onHamburgerClick" />
   </div>
 </template>

@@ -11,7 +11,7 @@ onMounted(() => {
 <template>
   <div
     :[selectedSection]="true"
-    class="hidden fixed top-[50%] translate-y-[-50%] right-32 z-50 sm:block"
+    class="hidden fixed top-[50%] translate-y-[-50%] right-32 z-[2] sm:block"
   >
     <ul class="list-none space-y-4 flex flex-col justify-center items-center">
       <li>

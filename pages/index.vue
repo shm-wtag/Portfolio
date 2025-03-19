@@ -23,8 +23,7 @@ useHead({
       name="svg:outline"
       class="hidden sm:block absolute h-[1350px] w-[320px]"
     />
-    <FullMenuBar v-if="showFullMenu" @close="closeFullMenu" />
-    <MenuBar v-else @click="openFullMenu" />
+    <FullMenuBar @close="closeFullMenu" />
 
     <HeroSection />
   </div>
