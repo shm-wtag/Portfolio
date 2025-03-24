@@ -39,5 +39,5 @@ import { projects } from "~/composable/work-data";
     </div>
   </Container>
 
-  <FooterSection />
+  <FooterSection variant="half" />
 </template>
