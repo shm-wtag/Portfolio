@@ -51,7 +51,7 @@ const onBeforeEnter = (el: Element) => {
     >
       <div
         v-if="showMenu"
-        class="h-screen w-screen bg-white fixed py-32 px-16 space-y-2 z-[9] transition-all duration-150 sm:h-[500px] sm:w-[400px] sm:absolute sm:right-24 sm:top-6 sm:py-8 sm:rounded sm:shadow"
+        class="h-screen w-screen bg-white fixed py-32 px-16 space-y-2 z-[9] transition-all duration-150 sm:pt-20 sm:h-[500px] sm:w-[400px] sm:absolute sm:right-24 sm:top-6 sm:py-8 sm:rounded sm:shadow"
       >
         <Button class="a-item" variant="custom">Home</Button>
         <Button class="a-item" variant="custom">My Shelf</Button>
