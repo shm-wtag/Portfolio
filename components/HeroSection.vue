@@ -28,7 +28,13 @@
       </div>
     </div>
     <div
-      class="hidden w-1/3 sm:flex absolute top-0 right-0 bottom-0 bg-accent-foreground"
-    ></div>
+      class="hidden w-1/3 sm:flex absolute top-0 right-0 bottom-0 bg-accent-foreground items-center"
+    >
+      <div
+        class="size-96 border border-white -ml-52 shadow-2xl flex items-center justify-center"
+      >
+        <Icon name="svg:boy-outline" class="size-80 text-black"></Icon>
+      </div>
+    </div>
   </Container>
 </template>

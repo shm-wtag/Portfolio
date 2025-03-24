@@ -25,8 +25,6 @@ async function onEnter(el: Element, onComplete: () => void) {
   ];
   await animate(sequens);
 
-  console.log(el.querySelectorAll("button"));
-
   onComplete();
 }
 
