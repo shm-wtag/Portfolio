@@ -4,7 +4,7 @@ import { projects } from "~/composable/work-data";
 
 <template>
   <Container>
-    <WorkHeader>
+    <WorkHeader class="mb-12">
       <h1 class="font-semibold text-3xl text-stone-600 hidden sm:block">
         <span class="text-stone-500">/</span>
         Work
@@ -15,7 +15,7 @@ import { projects } from "~/composable/work-data";
     </WorkHeader>
 
     <div
-      class="space-y-4 gap-5 md:space-y-0 md:grid md:grid-cols-2 xl:grid-cols-3"
+      class="space-y-4 gap-5 md:space-y-0 md:grid md:grid-cols-2 md:gap-8 xl:grid-cols-3 xl:gap-12"
     >
       <nuxt-link
         v-for="item in projects"
