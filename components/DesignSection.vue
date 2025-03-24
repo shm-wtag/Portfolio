@@ -1,8 +1,7 @@
 <script lang="ts" setup>
-import { translateY } from "~/composable/translate";
+import { translateYStagger } from "~/composable/translate";
 
-translateY(".design-engineer h1", [50, 0]);
-translateY(".design-engineer p", [20, 0]);
+translateYStagger(".design-engineer");
 </script>
 
 <template>
@@ -25,11 +24,11 @@ translateY(".design-engineer p", [20, 0]);
     >
       <div class="sm:w-2/5">
         <h1
-          class="text-4xl text-primary font-semibold mb-4 sm:text-5xl sm:mb-6"
+          class="text-4xl text-primary font-semibold mb-4 sm:text-5xl sm:mb-6 a-item"
         >
           Design
         </h1>
-        <p>
+        <p class="a-item">
           I'm probably not the typical designer positioned behind an Illustrator
           artboard adjusting pixels, but I design. Immersed in stylesheets
           tweaking font sizes and contemplating layouts is where you'll find me
@@ -39,11 +38,11 @@ translateY(".design-engineer p", [20, 0]);
       </div>
       <div class="mt-12 sm:w-2/5 sm:mt-44">
         <h1
-          class="text-4xl text-primary font-semibold mb-4 sm:text-5xl sm:mb-6"
+          class="text-4xl text-primary font-semibold mb-4 sm:text-5xl sm:mb-6 a-item"
         >
           Engineering
         </h1>
-        <p>
+        <p class="a-item">
           In building JavaScript applications, I'm equipped with just the right
           tools, and can absolutely function independently of them to deliver
           fast, resilient solutions optimized for scale — performance and
